@@ -30,7 +30,7 @@
     "help": "^3.0.2",
     "mat-timepicker": "^5.1.4",
     "moment": "^2.29.1",
-    "ngx-mat-tui-calendar": "^12.0.2",
+    "ngx-mat-tui-calendar": "^12.0.5",
     "nodemon": "^2.0.14",
     "pug": "^3.0.2",
     "randomcolor": "^0.6.2",
