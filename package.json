@@ -3,8 +3,9 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "ng demo",
-    "test": "ng test"
+    "start": "ng serve",
+    "test": "ng test",
+    "build": "ng build --configuration production"
   },
   "dependencies": {
     "@angular/animations": "^12.2.12",
