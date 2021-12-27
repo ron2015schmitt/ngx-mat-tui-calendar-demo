@@ -17,7 +17,7 @@ export class AppComponent implements OnInit {
   prod = environment.production;
   title = "Angular Material TOAST UI Calendar Demo";
 
-  darkMode: boolean = true; // <- initial setting for slider
+  darkMode: boolean = false; // <- initial setting for slider
   toggleControl = new FormControl(this.darkMode);
   @HostBinding() themeClass = '';
   @ViewChild('matTuiCalendarNgx', { static: true }) calendarComponent: NgxMatTuiCalendarComponent;
