@@ -4,7 +4,7 @@ import { NgxMatTuiCalendarModule } from 'ngx-mat-tui-calendar';
 
 // Angular modules
 import { ReactiveFormsModule } from '@angular/forms';
-import { NgModule } from '@angular/core';
+import { CUSTOM_ELEMENTS_SCHEMA, NgModule } from '@angular/core';
 
 // Angular Material Design modules
 import { MatIconModule } from '@angular/material/icon';
@@ -28,6 +28,7 @@ import { AppComponent } from './app.component';
   exports: [
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
+  schemas: [CUSTOM_ELEMENTS_SCHEMA],
 })
 export class AppModule { }
