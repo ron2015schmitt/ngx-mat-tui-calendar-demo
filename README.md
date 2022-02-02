@@ -3,7 +3,8 @@
 [![Netlify Status](https://api.netlify.com/api/v1/badges/4123123c-c8fa-4d63-8106-de8c4c88fdd8/deploy-status)](https://app.netlify.com/sites/ngx-mat-tui-calendar-demo/deploys)
 
 This project is a usage demo for the [ngx-mat-tui-calendar](https://github.com/ron2015schmitt/ngx-mat-tui-calendar) Angular library.
- 
+
+
 # Usage
 
 ```bash
